@@ -3,7 +3,7 @@ import { FaWhatsapp, FaStar } from 'react-icons/fa';
 import { HiOutlineSparkles } from 'react-icons/hi2';
 import Button from '../common/Button';
 import { useWhatsApp } from '../../hooks/useWhatsApp';
-import { placeholderImage } from '../../assets/placeholders/placeholderImage';
+import logo from '../../assets/images/foto-profi-empe.jpeg';
 import styles from './Hero.module.css';
 
 const fadeUp = (delay = 0) => ({
@@ -12,7 +12,7 @@ const fadeUp = (delay = 0) => ({
   transition: { duration: 0.8, delay, ease: [0.16, 1, 0.3, 1] as const },
 });
 
-const heroImage = placeholderImage('Foto da Sophia ou resultado em destaque');
+const heroImage = logo;
 
 const Hero = () => {
   const { getLink } = useWhatsApp();

@@ -3,6 +3,9 @@ import BeforeAfterSlider from './BeforeAfterSlider';
 import { BEFORE_AFTER } from '../../data/beforeAfter';
 import styles from './BeforeAfter.module.css';
 
+/*ESSE COMPONENTE NAO ESTÀ SENDO USADO, MAS TA AQ PARA CASO MUDE DE IDEIA*/
+ 
+
 const BeforeAfter = () => {
   return (
     <section id="resultados" className={styles.section}>

@@ -2,6 +2,8 @@ import { useRef, useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import styles from './BeforeAfterSlider.module.css';
 
+/*ESSE COMPONENTE NAO ESTÀ SENDO USADO, MAS TA AQ PARA CASO MUDE DE IDEIA*/
+
 interface BeforeAfterSliderProps {
   beforeImage: string;
   afterImage: string;

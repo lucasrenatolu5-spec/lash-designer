@@ -1,5 +1,13 @@
 import type { LashService, Testimonial, FaqItem, BenefitItem, StatItem } from './types';
-import { placeholderImage } from '../assets/placeholders/placeholderImage';
+import brasileiro from '../assets/images/brasileiro.jpeg';
+import egipcio from '../assets/images/egipicio.jpeg'
+import luxo from '../assets/images/luxo.jpeg'
+import arabe from '../assets/images/arabe.jpeg'
+import fox from '../assets/images/fox.jpeg'
+import megaBrasileiro from '../assets/images/mega-brasileiro.jpeg'
+import megaEgipcio from '../assets/images/mega-egipcio.jpeg'
+import megaFox from '../assets/images/mega-fox.jpeg'
+import megaArabe from '../assets/images/mega-arabe.jpeg'
 
 export const SITE = {
   name: 'Sophia Ellen',
@@ -26,7 +34,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 65,
     maintenancePrice: 50,
     durationLabel: '2h a 2h30',
-    image: placeholderImage('Volume Brasileiro'),
+    image: brasileiro,
   },
   {
     id: 'volume-egipcio',
@@ -37,7 +45,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 65,
     maintenancePrice: 50,
     durationLabel: '2h a 2h30',
-    image: placeholderImage('Volume Egípcio'),
+    image: egipcio,
   },
   {
     id: 'volume-luxo',
@@ -48,7 +56,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 70,
     maintenancePrice: 50,
     durationLabel: '2h30',
-    image: placeholderImage('Volume Luxo'),
+    image: luxo,
   },
   {
     id: 'volume-arabe',
@@ -59,7 +67,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 70,
     maintenancePrice: 50,
     durationLabel: '2h30',
-    image: placeholderImage('Volume Árabe'),
+    image: arabe,
   },
   {
     id: 'volume-fox',
@@ -71,7 +79,7 @@ export const SERVICES: LashService[] = [
     maintenancePrice: 60,
     durationLabel: '2h30 a 3h',
     featured: true,
-    image: placeholderImage('Volume Fox'),
+    image: fox,
   },
   {
     id: 'volume-mega-brasileiro',
@@ -82,7 +90,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 70,
     maintenancePrice: 60,
     durationLabel: '3h',
-    image: placeholderImage('Volume Mega Brasileiro'),
+    image: megaBrasileiro,
   },
   {
     id: 'volume-mega-egipcio',
@@ -93,7 +101,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 80,
     maintenancePrice: 65,
     durationLabel: '3h',
-    image: placeholderImage('Volume Mega Egípcio'),
+    image: megaEgipcio,
   },
   {
     id: 'volume-mega-fox',
@@ -104,7 +112,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 90,
     maintenancePrice: 70,
     durationLabel: '3h a 3h30',
-    image: placeholderImage('Volume Mega Fox'),
+    image: megaFox,
   },
   {
     id: 'volume-mega-arabe',
@@ -115,7 +123,7 @@ export const SERVICES: LashService[] = [
     applicationPrice: 85,
     maintenancePrice: 75,
     durationLabel: '3h30',
-    image: placeholderImage('Volume Mega Árabe'),
+    image: megaArabe,
   },
 ];
 

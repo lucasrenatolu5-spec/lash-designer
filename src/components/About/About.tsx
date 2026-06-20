@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import { HiOutlineHeart, HiOutlineShieldCheck, HiOutlineSparkles } from 'react-icons/hi2';
 import SectionHeading from '../common/SectionHeading';
-import { placeholderImage } from '../../assets/placeholders/placeholderImage';
+import logo from '../../assets/images/foto-profi-sentada.jpeg';
 import styles from './About.module.css';
 
-const aboutImage = placeholderImage('Foto da Sophia trabalhando');
+const aboutImage = logo;
 
 const PILLARS = [
   {

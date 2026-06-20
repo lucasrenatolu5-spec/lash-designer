@@ -4,6 +4,8 @@ import SectionHeading from '../common/SectionHeading';
 import { SERVICES } from '../../data/content';
 import styles from './PriceTable.module.css';
 
+/*ESSE COMPONENTE NAO ESTÀ SENDO USADO, MAS TA AQ PARA CASO MUDE DE IDEIA*/
+
 const PriceTable = () => {
   return (
     <section id="precos" className={styles.section}>
