@@ -1,0 +1,148 @@
+.card {
+  position: relative;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--t-base) var(--ease-out);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.featured {
+  border-color: var(--color-gold);
+}
+
+.badge {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  z-index: 2;
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-sm);
+}
+
+.imageWrap {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: var(--color-bg-alt);
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.card:hover .imageWrap img {
+  transform: scale(1.05);
+}
+
+.body {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--space-2xs);
+}
+
+.headRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size: var(--fs-h5);
+  color: var(--color-ink);
+}
+
+.duration {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: var(--color-gold-dark);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+  line-height: 1.6;
+  margin-bottom: var(--space-2xs);
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: var(--space-sm);
+  flex: 1;
+}
+
+.benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.84rem;
+  color: var(--color-ink-soft);
+}
+
+.benefits svg {
+  color: var(--color-success);
+  flex-shrink: 0;
+  margin-top: 2px;
+  font-size: 0.95rem;
+}
+
+.priceRow {
+  display: flex;
+  gap: var(--space-2xs);
+  margin-bottom: var(--space-sm);
+}
+
+.priceTag {
+  flex: 1;
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2xs) var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.priceTag span {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-soft);
+}
+
+.priceTag strong {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--color-gold-dark);
+}
+
+.cardCta {
+  width: 100%;
+  justify-content: center;
+}

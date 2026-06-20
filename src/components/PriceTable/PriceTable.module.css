@@ -1,0 +1,123 @@
+.section {
+  padding: var(--space-3xl) 0;
+  background: var(--color-bg);
+}
+
+.tableWrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+  margin: 0 auto;
+  border: 1px solid var(--color-beige-line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  border-bottom: 1px solid var(--color-beige-line);
+  transition: background var(--t-fast) var(--ease-out);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row:hover {
+  background: var(--color-bg-alt);
+}
+
+.featuredRow {
+  background: linear-gradient(90deg, var(--color-gold-pale) 0%, transparent 100%);
+}
+
+.rowInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.rowName {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--color-ink);
+  margin-bottom: var(--space-2xs);
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--color-gold-dark);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+}
+
+.rowBenefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.rowBenefits li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: var(--color-ink-soft);
+}
+
+.rowBenefits svg {
+  color: var(--color-success);
+  flex-shrink: 0;
+}
+
+.rowPrices {
+  display: flex;
+  gap: var(--space-md);
+  flex-shrink: 0;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 88px;
+}
+
+.priceBlock span {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-soft);
+}
+
+.priceBlock strong {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-gold-dark);
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-md);
+  }
+
+  .rowPrices {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

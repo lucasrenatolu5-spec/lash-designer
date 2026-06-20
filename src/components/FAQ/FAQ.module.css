@@ -1,0 +1,68 @@
+.section {
+  padding: var(--space-3xl) 0;
+  background: var(--color-bg-alt);
+}
+
+.list {
+  max-width: 760px;
+  margin: 0 auto var(--space-2xl);
+  border-top: 1px solid var(--color-beige-line);
+}
+
+.policiesBox {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-beige-line);
+}
+
+.policiesHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  margin-bottom: var(--space-2xs);
+}
+
+.policiesHeader svg {
+  font-size: 1.4rem;
+  color: var(--color-gold-dark);
+}
+
+.policiesHeader h3 {
+  font-size: 1.4rem;
+  color: var(--color-ink);
+}
+
+.policiesIntro {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+  margin-bottom: var(--space-md);
+}
+
+.policiesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.policiesList li {
+  font-size: 0.92rem;
+  color: var(--color-ink-soft);
+  line-height: 1.6;
+  padding-left: var(--space-md);
+  position: relative;
+}
+
+.policiesList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-gold);
+}
