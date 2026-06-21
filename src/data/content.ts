@@ -128,7 +128,7 @@ export const SERVICES: LashService[] = [
 ];
 
 export const STATS: StatItem[] = [
-  { id: 'clientes', value: '500+', label: 'Clientes atendidas' },
+  { id: 'clientes', value: '100%', label: 'Resultados que encantam' },
   { id: 'avaliacao', value: '5.0', label: 'Avaliação média' },
   { id: 'tecnicas', value: '9', label: 'Técnicas disponíveis' },
   { id: 'satisfacao', value: '100%', label: 'Atendimento com hora marcada' },

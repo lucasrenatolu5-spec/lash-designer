@@ -37,8 +37,8 @@ const Hero = () => {
 
           <motion.div className={styles.trustRow} {...fadeUp(0.3)}>
             <div className={styles.trustItem}>
-              <strong>500+</strong>
-              <span>clientes atendidas</span>
+              <strong>100%</strong>
+              <span>Resultados que encantam</span>
             </div>
             <div className={styles.divider} />
             <div className={styles.trustItem}>
