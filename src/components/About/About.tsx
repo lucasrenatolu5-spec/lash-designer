@@ -59,8 +59,7 @@ const About = () => {
             natural.
           </p>
           <p className={styles.paragraph}>
-            [Espaço reservado para história, formação e certificações da
-            Sophia — substitua este texto pelas informações reais.]
+            Tenho 17 anos e, desde os 14, sonhava em ter meu próprio negócio. Aos 16, iniciei minha carreira como Lash Designer e conquistei meu primeiro certificado. Desde então, busco constante aperfeiçoamento e, em 2026, fui eleita Lash Excelência 2026.
           </p>
 
           <div className={styles.pillars}>

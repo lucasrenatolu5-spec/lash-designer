@@ -33,7 +33,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Resultado cheio e natural', 'Respeita os fios naturais', 'Efeito duradouro'],
     applicationPrice: 65,
     maintenancePrice: 50,
-    durationLabel: '2h a 2h30',
+    durationLabel: '2:30h a 3h',
     image: brasileiro,
   },
   {
@@ -44,7 +44,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Efeito dramático', 'Alongamento elegante', 'Valoriza o contorno dos olhos'],
     applicationPrice: 65,
     maintenancePrice: 50,
-    durationLabel: '2h a 2h30',
+    durationLabel: '2:30h a 3h',
     image: egipcio,
   },
   {
@@ -55,7 +55,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Acabamento premium', 'Aplicação delicada', 'Naturalidade e elegância'],
     applicationPrice: 70,
     maintenancePrice: 50,
-    durationLabel: '2h30',
+    durationLabel: '2:30h a 3h',
     image: luxo,
   },
   {
@@ -66,7 +66,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Abertura central marcante', 'Olhar profundo e sedutor', 'Resultado dramático'],
     applicationPrice: 70,
     maintenancePrice: 50,
-    durationLabel: '2h30',
+    durationLabel: '2h30 a 3h',
     image: arabe,
   },
   {
@@ -89,7 +89,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Volume máximo', 'Acabamento fio a fio', 'Olhar impactante'],
     applicationPrice: 70,
     maintenancePrice: 60,
-    durationLabel: '3h',
+    durationLabel: '3h a 4h:30h',
     image: megaBrasileiro,
   },
   {
@@ -100,7 +100,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Efeito irresistível', 'Alongamento intenso', 'Olhar transformado'],
     applicationPrice: 80,
     maintenancePrice: 65,
-    durationLabel: '3h',
+    durationLabel: '3h a 4h:30',
     image: megaEgipcio,
   },
   {
@@ -111,7 +111,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Volume máximo na ponta externa', 'Olhar arrasador', 'Personalidade única'],
     applicationPrice: 90,
     maintenancePrice: 70,
-    durationLabel: '3h a 3h30',
+    durationLabel: '3h a 5h',
     image: megaFox,
   },
   {
@@ -122,7 +122,7 @@ export const SERVICES: LashService[] = [
     benefits: ['Intensidade máxima', 'Volume extremo', 'O mais dramático do catálogo'],
     applicationPrice: 85,
     maintenancePrice: 75,
-    durationLabel: '3h30',
+    durationLabel: '3h:30 a 5h',
     image: megaArabe,
   },
 ];
@@ -166,7 +166,7 @@ export const FAQS: FaqItem[] = [
     id: 'f1',
     question: 'Quanto tempo dura a aplicação?',
     answer:
-      'Depende da técnica escolhida: as aplicações clássicas levam entre 2h e 2h30, enquanto os volumes Mega podem levar até 3h30, garantindo um resultado impecável fio a fio.',
+      'Depende da técnica escolhida: as aplicações clássicas levam entre 2h:30 e 3h30, enquanto os volumes Mega podem levar até 4h30, garantindo um resultado impecável fio a fio.',
   },
   {
     id: 'f2',
@@ -178,7 +178,7 @@ export const FAQS: FaqItem[] = [
     id: 'f3',
     question: 'Posso molhar os cílios depois da aplicação?',
     answer:
-      'Sim, mas recomendamos evitar contato com água nas primeiras 24 horas para a colagem fixar completamente. Depois desse período, os cílios podem ser molhados normalmente.',
+      'Não, recomendamos evitar contato com água nas primeiras 24 horas para a colagem fixar completamente. Depois desse período, os cílios podem ser molhados normalmente.',
   },
   {
     id: 'f4',
@@ -205,21 +205,21 @@ export const TESTIMONIALS: Testimonial[] = [
     id: 't1',
     name: 'Cliente satisfeita',
     rating: 5,
-    text: 'Texto de depoimento a ser substituído por uma avaliação real de cliente.',
+    text: 'Fiquei impressionada com o resultado meus cílios ficaram leves e super naturais, exatamente como eu queria',
     photo: '',
   },
   {
     id: 't2',
     name: 'Cliente satisfeita',
     rating: 5,
-    text: 'Texto de depoimento a ser substituído por uma avaliação real de cliente.',
+    text: 'Simplesmente perfeito, meu olhar mudou completamente e a durabilidade é incrível',
     photo: '',
   },
   {
     id: 't3',
     name: 'Cliente satisfeita',
     rating: 5,
-    text: 'Texto de depoimento a ser substituído por uma avaliação real de cliente.',
+    text: 'Nunca tinha feito extensão de cílios antes e me surpreendi com o conforto, nem parece que estou usando',
     photo: '',
   },
 ];

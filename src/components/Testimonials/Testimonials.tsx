@@ -93,7 +93,7 @@ const Testimonials = () => {
         </div>
 
         <p className={styles.editNote}>
-          * Substitua os depoimentos de exemplo por avaliações reais de clientes.
+          O que elas falam!
         </p>
       </div>
     </section>
