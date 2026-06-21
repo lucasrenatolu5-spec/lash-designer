@@ -9,8 +9,6 @@ import styles from './Header.module.css';
 const NAV_LINKS = [
   { label: 'Sobre', href: '#sobre' },
   { label: 'Serviços', href: '#servicos' },
-  { label: 'Preços', href: '#precos' },
-  { label: 'Resultados', href: '#resultados' },
   { label: 'Depoimentos', href: '#depoimentos' },
   { label: 'FAQ', href: '#faq' },
 ];
